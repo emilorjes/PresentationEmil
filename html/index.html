@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Emil Örjes</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a class="logo" href="#">Emil<span>Örjes</span></a>
+        <img
+          id="mobile-cta"
+          class="mobile-menu-open"
+          src="/images/open-menu.svg"
+          alt="Open Navigation"
+        />
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src="/images/exit-menu.svg"
+            alt="Close Navigation"
+          />
+          <ul class="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li id="skills-cta"><a href="#skills">Skills</a></li>
+            <li id="projects-cta"><a href="#projects">Projects</a></li>
+            <li id="contact-cta"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="digital-clock" class="clock" onload="showTime()"></div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="left-col">
+          <h1>Curiosity is the essence of our existence</h1>
+          <p class="subhead">- Gene Cernan</p>
+          <div class="hero-cta">
+            <a href="#projects" class="project-cta">Projects</a>
+          </div>
+        </div>
+        <img
+          src="/images/rsz_profile-picture 492.jpg"
+          class="hero-img"
+          alt="Profile picture of Emil Örjes"
+        />
+      </div>
+    </section>
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p>
+          My name is Emil and I am studying to become a .NET developer at Campus
+          Mölndal's distance education. I am a driven person who likes
+          challenges and having fun at work with my colleagues!
+        </p>
+        <ul class="skills-list">
+          <li>.Net - It is a framework...</li>
+          <li>C# - My main language is C hashtag</li>
+          <li>HTML - It is the foundation of everything</li>
+          <li>CSS - Here is were the magic happens</li>
+          <li>JavaScript - It is the same as Java, right?</li>
+          <li>SQL - I have not deleted my database by mistake (yet)</li>
+          <li>WordPress - It's not much but it's honest work</li>
+        </ul>
+      </div>
+    </section>
+    <section id="projects" class="project-section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <ul>
+          <li>
+            <img src="/images/webdev.png" alt="HTML CSS JavaScript logos" />
+            <p>You're watching it right now!</p>
+          </li>
+          <li>
+            <img src="/images/csharp.png" alt="C sharp logo" />
+            <div>
+              <a
+                href="https://github.com/emilorjes?tab=repositories"
+                target="_blank"
+                class="projects-link"
+                >GitHub</a
+              >
+            </div>
+          </li>
+          <li>
+            <img src="/images/wordpress.png" alt="Wordpress logo" />
+            <div>
+              <a
+                href="https://gamingcheck.se"
+                target="_blank"
+                class="projects-link"
+                >GamingCheck</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Contact</h2>
+      <div class="container">
+        <div class="contact-left">
+          <h2>Contact Form</h2>
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              style="resize: none"
+            ></textarea>
+            <input
+              type="submit"
+              class="send-message-cta"
+              value="Send message"
+            />
+          </form>
+        </div>
+        <div class="contact-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125333.04764712532!2d15.525547636071938!3d60.604745771029854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466764d555730ac5%3A0x8d6ff2a697970634!2sFalun!5e0!3m2!1ssv!2sse!4v1629809363859!5m2!1ssv!2sse"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
