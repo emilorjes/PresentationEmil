@@ -13,11 +13,13 @@ mobileBtn.addEventListener("click", () => {
 });
 
 
-//Hides mobile menu depending on which element is clicked
+//Hides mobile menu when the X img is clicked
 mobileBtnExit.addEventListener("click", () => {
   nav.classList.remove("menu-btn");
 });
 
+
+//Hides mobile menu depending on which element is clicked in the mobile menu (When Home is pressed the page relodes)
 mobileBtnSkills.addEventListener("click", () => {
   nav.classList.remove("menu-btn");
 });

@@ -8,8 +8,9 @@
 7  - SKILLS
 8  - PROJECTS
 9  - CONTACT
-10 - MIN 768px
-11 - MIN 1080px
+10 - FOOTER
+11 - MIN 768px
+12 - MIN 1080px
 */
 /***************************1-FONTS***************************/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
@@ -343,7 +344,13 @@ iframe {
   border-radius: 20px;
 }
 
-/***************************10-MIN 768px***************************/
+/***************************10-FOOTER***************************/
+footer {
+  color: white;
+  text-align: center;
+}
+
+/***************************11-MIN 768px***************************/
 @media only screen and (min-width: 768px) {
   .mobile-menu-open,
   .mobile-menu-exit {
@@ -418,7 +425,7 @@ iframe {
   }
 }
 
-/***************************11-MIN 1080px***************************/
+/***************************12-MIN 1080px***************************/
 @media only screen and (min-width: 1080px) {
   .container {
     max-width: 1080px;
