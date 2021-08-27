@@ -6,18 +6,15 @@ const mobileBtnContact = document.getElementById("contact-cta");
 nav = document.querySelector("nav");
 mobileBtnExit = document.getElementById("mobile-exit");
 
-
 //Displays mobile menu when hamburgermenu logo is clicked
 mobileBtn.addEventListener("click", () => {
   nav.classList.add("menu-btn");
 });
 
-
 //Hides mobile menu when the X img is clicked
 mobileBtnExit.addEventListener("click", () => {
   nav.classList.remove("menu-btn");
 });
-
 
 //Hides mobile menu depending on which element is clicked in the mobile menu (When Home is pressed the page relodes)
 mobileBtnSkills.addEventListener("click", () => {
@@ -31,7 +28,6 @@ mobileBtnProjects.addEventListener("click", () => {
 mobileBtnContact.addEventListener("click", () => {
   nav.classList.remove("menu-btn");
 });
-
 
 // AM PM Digital clock function
 function showDigitalTime() {
