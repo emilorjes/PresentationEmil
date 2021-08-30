@@ -157,7 +157,7 @@ nav.menu-btn {
 /***************************6-HERO***************************/
 .hero {
   text-align: center;
-  background-image: url(/images/lines.jpg);
+  background-image: url(images/lines.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -236,7 +236,7 @@ ul.skills-list li:before {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url(/images/blue-checkmark.png);
+  background-image: url(images/blue-checkmark.png);
   background-size: contain;
   margin-right: 0.5em;
 }
